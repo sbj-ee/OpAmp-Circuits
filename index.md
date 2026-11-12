@@ -2,7 +2,7 @@
 
 103 op-amp circuit schematics drawn with generic parts. Each number has `svg/NN.svg` and `png/NN.png` (300 DPI).
 
-Circuit topologies follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work. No endorsement is implied.
+Circuit topologies for circuits 1–88 follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work. Circuits 89–103 (Fundamentals) are original drawings of standard textbook topologies, not taken from AN-31. No endorsement is implied.
 
 License: CC BY 4.0, © 2026 Stephen B. Johnson; see [LICENSE](LICENSE).
 

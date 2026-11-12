@@ -17,9 +17,9 @@ equations.
   Wien-bridge and phase-shift oscillators)
 - `gen/`: the Python generator that draws every schematic (see [gen/README.md](gen/README.md))
 
-Circuit topologies follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work.
+Circuit topologies for circuits 1–88 follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work.
+Circuits 89–103 (Fundamentals) are original drawings of standard textbook topologies, not taken from AN-31.
 No endorsement is implied.
-The Fundamentals section (89–103) shows standard textbook building blocks.
 
 ## License and attribution
 

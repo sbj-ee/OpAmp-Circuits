@@ -13,8 +13,9 @@ ap.add_argument('--out', default=os.path.dirname(HERE))
 OUT = os.path.abspath(ap.parse_args().out)
 nums = sorted(REG)
 SECTIONS = ['Basic Circuits', 'Signal Generation', 'Signal Processing', 'Fundamentals']
-CREDIT = ("Circuit topologies follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. "
-          "The drawings, titles and notes are new work.")
+CREDIT = ("Circuit topologies for circuits 1–88 follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. "
+          "The drawings, titles and notes are new work. "
+          "Circuits 89–103 (Fundamentals) are original drawings of standard textbook topologies, not taken from AN-31.")
 SEE_ALSO = CREDIT + ' No endorsement is implied.'
 # ---- index.csv / index.md / index.html
 with open(f'{OUT}/index.csv', 'w', newline='', encoding='utf-8') as f:

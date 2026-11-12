@@ -13,7 +13,8 @@ Suggested attribution:
   "Op Amp Circuits" by Stephen B. Johnson, licensed under CC BY 4.0.
 
 Notes:
-- Circuit topologies follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work.
+- Circuit topologies for circuits 1–88 follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work.
+- Circuits 89–103 (Fundamentals) are original drawings of standard textbook topologies, not taken from AN-31.
 - The license covers these drawings, titles and notes, not the underlying
   circuit ideas, which are long-established and not subject to copyright.
 - No endorsement by National Semiconductor or Texas Instruments is implied.
