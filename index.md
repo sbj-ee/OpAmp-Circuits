@@ -1,6 +1,6 @@
 # Op Amp Circuits — Index
 
-88 op-amp circuit schematics drawn with generic parts. Each number has `svg/NN.svg` and `png/NN.png` (300 DPI).
+103 op-amp circuit schematics drawn with generic parts. Each number has `svg/NN.svg` and `png/NN.png` (300 DPI).
 
 Circuit topologies follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. The drawings, titles and notes are new work. No endorsement is implied.
 
@@ -108,3 +108,23 @@ License: CC BY 4.0, © 2026 Stephen B. Johnson; see [LICENSE](LICENSE).
 | 86 | [Log-Antilog Cube Generator](png/86.png) |
 | 87 | [Fast Logarithmic Amplifier](png/87.png) |
 | 88 | [Temperature-Compensated Antilog (Exponential) Amplifier](png/88.png) |
+
+## Fundamentals
+
+| # | Circuit |
+|---|---|
+| 89 | [Op-Amp Symbol and Ideal Model](png/89.png) |
+| 90 | [Voltage Follower](png/90.png) |
+| 91 | [Basic Integrator](png/91.png) |
+| 92 | [Basic Differentiator](png/92.png) |
+| 93 | [First-Order Inverting Low-Pass Filter](png/93.png) |
+| 94 | [First-Order Inverting High-Pass Filter](png/94.png) |
+| 95 | [Multiple-Feedback Band-Pass Filter](png/95.png) |
+| 96 | [State-Variable (KHN) Filter](png/96.png) |
+| 97 | [Basic Logarithmic Amplifier](png/97.png) |
+| 98 | [Basic Antilog (Exponential) Amplifier](png/98.png) |
+| 99 | [Single-Diode Precision Half-Wave Rectifier](png/99.png) |
+| 100 | [Open-Loop Comparator](png/100.png) |
+| 101 | [Non-Inverting Schmitt Trigger](png/101.png) |
+| 102 | [Basic Wien-Bridge Oscillator](png/102.png) |
+| 103 | [RC Phase-Shift Oscillator](png/103.png) |

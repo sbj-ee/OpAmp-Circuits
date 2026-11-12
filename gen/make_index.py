@@ -6,13 +6,13 @@ import argparse, csv, html, importlib, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from reg import REG
-for m in ['c_basic', 'c_gen', 'c_proc1', 'c_proc2', 'c_proc3', 'c_proc4']:
+for m in ['c_basic', 'c_gen', 'c_proc1', 'c_proc2', 'c_proc3', 'c_proc4', 'c_fund']:
     importlib.import_module(m)
 ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
 ap.add_argument('--out', default=os.path.dirname(HERE))
 OUT = os.path.abspath(ap.parse_args().out)
 nums = sorted(REG)
-SECTIONS = ['Basic Circuits', 'Signal Generation', 'Signal Processing']
+SECTIONS = ['Basic Circuits', 'Signal Generation', 'Signal Processing', 'Fundamentals']
 CREDIT = ("Circuit topologies follow National Semiconductor AN-31, 'Op Amp Circuit Collection'. "
           "The drawings, titles and notes are new work.")
 SEE_ALSO = CREDIT + ' No endorsement is implied.'
@@ -22,7 +22,7 @@ with open(f'{OUT}/index.csv', 'w', newline='', encoding='utf-8') as f:
     for n in nums:
         w.writerow([f'{n:02d}', REG[n]['title'], REG[n]['section'], f'svg/{n:02d}.svg', f'png/{n:02d}.png'])
 md = ['# Op Amp Circuits — Index', '',
-      '88 op-amp circuit schematics drawn with generic parts. Each number has `svg/NN.svg` and `png/NN.png` (300 DPI).', '',
+      f'{len(nums)} op-amp circuit schematics drawn with generic parts. Each number has `svg/NN.svg` and `png/NN.png` (300 DPI).', '',
       SEE_ALSO, '', 'License: CC BY 4.0, © 2026 Stephen B. Johnson; see [LICENSE](LICENSE).', '']
 for sec in SECTIONS:
     md += [f'## {sec}', '', '| # | Circuit |', '|---|---|']
@@ -54,7 +54,7 @@ def page(title, intro, base, tags=None, extra=''):
     h.append(f'</main><footer>{extra}</footer><script>function f(v){{v=v.toLowerCase();document.querySelectorAll(".card").forEach(c=>c.style.display=c.dataset.k.includes(v)?"":"none")}}</script></body></html>')
     return ''.join(h)
 open(f'{OUT}/index.html', 'w', encoding='utf-8').write(page('Op Amp Circuits',
-    '<p>88 op-amp circuit schematics drawn with generic parts. Click a card for the SVG.</p>', '',
+    f'<p>{len(nums)} op-amp circuit schematics drawn with generic parts. Click a card for the SVG.</p>', '',
     extra=f'<p>{html.escape(SEE_ALSO)}</p><p>License: CC BY 4.0, © 2026 Stephen B. Johnson. See LICENSE.</p>'))
 
 print('wrote index.csv, index.md, index.html')

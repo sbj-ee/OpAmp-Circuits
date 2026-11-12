@@ -7,7 +7,7 @@ import argparse, importlib, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from reg import REG
-MODS = ['c_basic', 'c_gen', 'c_proc1', 'c_proc2', 'c_proc3', 'c_proc4']
+MODS = ['c_basic', 'c_gen', 'c_proc1', 'c_proc2', 'c_proc3', 'c_proc4', 'c_fund']
 for m in MODS:
     importlib.import_module(m)
 

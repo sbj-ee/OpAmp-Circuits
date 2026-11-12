@@ -87,3 +87,18 @@ number,title,section,svg,png
 86,Log-Antilog Cube Generator,Signal Processing,svg/86.svg,png/86.png
 87,Fast Logarithmic Amplifier,Signal Processing,svg/87.svg,png/87.png
 88,Temperature-Compensated Antilog (Exponential) Amplifier,Signal Processing,svg/88.svg,png/88.png
+89,Op-Amp Symbol and Ideal Model,Fundamentals,svg/89.svg,png/89.png
+90,Voltage Follower,Fundamentals,svg/90.svg,png/90.png
+91,Basic Integrator,Fundamentals,svg/91.svg,png/91.png
+92,Basic Differentiator,Fundamentals,svg/92.svg,png/92.png
+93,First-Order Inverting Low-Pass Filter,Fundamentals,svg/93.svg,png/93.png
+94,First-Order Inverting High-Pass Filter,Fundamentals,svg/94.svg,png/94.png
+95,Multiple-Feedback Band-Pass Filter,Fundamentals,svg/95.svg,png/95.png
+96,State-Variable (KHN) Filter,Fundamentals,svg/96.svg,png/96.png
+97,Basic Logarithmic Amplifier,Fundamentals,svg/97.svg,png/97.png
+98,Basic Antilog (Exponential) Amplifier,Fundamentals,svg/98.svg,png/98.png
+99,Single-Diode Precision Half-Wave Rectifier,Fundamentals,svg/99.svg,png/99.png
+100,Open-Loop Comparator,Fundamentals,svg/100.svg,png/100.png
+101,Non-Inverting Schmitt Trigger,Fundamentals,svg/101.svg,png/101.png
+102,Basic Wien-Bridge Oscillator,Fundamentals,svg/102.svg,png/102.png
+103,RC Phase-Shift Oscillator,Fundamentals,svg/103.svg,png/103.png
