@@ -1,0 +1,89 @@
+number,title,section,svg,png
+01,Inverting Amplifier,Basic Circuits,svg/01.svg,png/01.png
+02,Non-Inverting Amplifier,Basic Circuits,svg/02.svg,png/02.png
+03,Four-Resistor Difference Amplifier,Basic Circuits,svg/03.svg,png/03.png
+04,Inverting Summer,Basic Circuits,svg/04.svg,png/04.png
+05,Non-Inverting Summer,Basic Circuits,svg/05.svg,png/05.png
+06,High-Resistance Inverting Amplifier,Basic Circuits,svg/06.svg,png/06.png
+07,Buffered Inverting Amplifier,Basic Circuits,svg/07.svg,png/07.png
+08,AC-Coupled Non-Inverting Amplifier,Basic Circuits,svg/08.svg,png/08.png
+09,Differentiator with Noise Limiting,Basic Circuits,svg/09.svg,png/09.png
+10,Resettable Integrator,Basic Circuits,svg/10.svg,png/10.png
+11,Wideband Integrator,Basic Circuits,svg/11.svg,png/11.png
+12,Transimpedance Amplifier,Basic Circuits,svg/12.svg,png/12.png
+13,Single-Supply Inverting Amplifier with Mid-Rail Reference,Basic Circuits,svg/13.svg,png/13.png
+14,Buffered Mid-Supply Reference,Basic Circuits,svg/14.svg,png/14.png
+15,Non-Inverting Amplifier with Input-Capacitance Neutralization,Basic Circuits,svg/15.svg,png/15.png
+16,Integrator with Bias-Current Cancellation,Basic Circuits,svg/16.svg,png/16.png
+17,Comparator with Logic-Level Output Clamp,Basic Circuits,svg/17.svg,png/17.png
+18,Photodiode Light-Threshold Detector,Basic Circuits,svg/18.svg,png/18.png
+19,Window Comparator,Basic Circuits,svg/19.svg,png/19.png
+20,Multi-Window Level Classifier,Basic Circuits,svg/20.svg,png/20.png
+21,Offset Trim for an Inverting Stage,Basic Circuits,svg/21.svg,png/21.png
+22,Offset Trim for a Non-Inverting Stage,Basic Circuits,svg/22.svg,png/22.png
+23,Offset Trim for a Voltage Follower,Basic Circuits,svg/23.svg,png/23.png
+24,Offset Trim for a Difference Amplifier,Basic Circuits,svg/24.svg,png/24.png
+25,Offset Trim by Summing-Node Injection,Basic Circuits,svg/25.svg,png/25.png
+26,Quadrature Sine Oscillator (Low Frequency),Signal Generation,svg/26.svg,png/26.png
+27,Quadrature Sine Oscillator (Wideband),Signal Generation,svg/27.svg,png/27.png
+28,Op-Amp Astable Multivibrator,Signal Generation,svg/28.svg,png/28.png
+29,Wien-Bridge Oscillator with Lamp Amplitude Control,Signal Generation,svg/29.svg,png/29.png
+30,Triangle and Square Wave Generator,Signal Generation,svg/30.svg,png/30.png
+31,Pulse-Width Modulator,Signal Generation,svg/31.svg,png/31.png
+32,Bidirectional Current Source with Input Buffer,Signal Generation,svg/32.svg,png/32.png
+33,Bidirectional Current Source,Signal Generation,svg/33.svg,png/33.png
+34,Wien-Bridge Oscillator with JFET Gain Control,Signal Generation,svg/34.svg,png/34.png
+35,Resistor-Programmed Low-Current Supply (Positive),Signal Generation,svg/35.svg,png/35.png
+36,Resistor-Programmed Low-Current Supply (Negative),Signal Generation,svg/36.svg,png/36.png
+37,Positive Reference with Zener in the Feedback Loop,Signal Generation,svg/37.svg,png/37.png
+38,Positive Reference from a Buffered Zener,Signal Generation,svg/38.svg,png/38.png
+39,Negative Reference with Zener in the Feedback Loop,Signal Generation,svg/39.svg,png/39.png
+40,Negative Reference from a Buffered Zener,Signal Generation,svg/40.svg,png/40.png
+41,Voltage-Programmed Current Sink,Signal Generation,svg/41.svg,png/41.png
+42,Voltage-Programmed Current Source,Signal Generation,svg/42.svg,png/42.png
+43,Buffered Difference Amplifier,Signal Processing,svg/43.svg,png/43.png
+44,Difference Amplifier with Single-Resistor Gain Control,Signal Processing,svg/44.svg,png/44.png
+45,Attenuating Difference Amplifier for High Common-Mode Voltage,Signal Processing,svg/45.svg,png/45.png
+46,Three-Op-Amp Instrumentation Amplifier,Signal Processing,svg/46.svg,png/46.png
+47,Two-Op-Amp Instrumentation Amplifier,Signal Processing,svg/47.svg,png/47.png
+48,Thermistor Bridge Amplifier with T-Network Feedback,Signal Processing,svg/48.svg,png/48.png
+49,Bridge Amplifier with a Sensor in Each Arm,Signal Processing,svg/49.svg,png/49.png
+50,Precision Rectifier (Ideal Diode),Signal Processing,svg/50.svg,png/50.png
+51,Active Clamp to a Reference Voltage,Signal Processing,svg/51.svg,png/51.png
+52,Inverting Half-Wave Precision Rectifier,Signal Processing,svg/52.svg,png/52.png
+53,Precision Full-Wave Rectifier with Averaging Output,Signal Processing,svg/53.svg,png/53.png
+54,Low-Drift Peak Detector,Signal Processing,svg/54.svg,png/54.png
+55,Absolute-Value Circuit with Sign Output,Signal Processing,svg/55.svg,png/55.png
+56,Sample-and-Hold,Signal Processing,svg/56.svg,png/56.png
+57,Low-Leakage Sample-and-Hold,Signal Processing,svg/57.svg,png/57.png
+58,Integrator with Leakage-Guarded Reset,Signal Processing,svg/58.svg,png/58.png
+59,Composite Summing Amplifier (Fast with Low Input Current),Signal Processing,svg/59.svg,png/59.png
+60,Composite Integrator (Fast with Low Input Current),Signal Processing,svg/60.svg,png/60.png
+61,Twin-T Notch Filter with Adjustable Q,Signal Processing,svg/61.svg,png/61.png
+62,Notch Filter Tuned by a Single Capacitor,Signal Processing,svg/62.svg,png/62.png
+63,Active Tuned Circuit,Signal Processing,svg/63.svg,png/63.png
+64,Two-Stage Active Tuned Circuit,Signal Processing,svg/64.svg,png/64.png
+65,Negative Capacitance Converter,Signal Processing,svg/65.svg,png/65.png
+66,Adjustable Capacitance Multiplier,Signal Processing,svg/66.svg,png/66.png
+67,Simulated Inductor (Gyrator),Signal Processing,svg/67.svg,png/67.png
+68,Grounded Capacitance Multiplier,Signal Processing,svg/68.svg,png/68.png
+69,Second-Order High-Pass Filter (Unity-Gain Sallen-Key),Signal Processing,svg/69.svg,png/69.png
+70,Second-Order Low-Pass Filter (Unity-Gain Sallen-Key),Signal Processing,svg/70.svg,png/70.png
+71,Piecewise-Linear Amplifier with Temperature-Compensated Breakpoints,Signal Processing,svg/71.svg,png/71.png
+72,High-Side Current Monitor,Signal Processing,svg/72.svg,png/72.png
+73,Photodiode Servo Preamplifier with Lead Feedback,Signal Processing,svg/73.svg,png/73.png
+74,Power Booster Driven by Supply-Current Sensing,Signal Processing,svg/74.svg,png/74.png
+75,Two-Quadrant Multiplier with Lamp and Photocells,Signal Processing,svg/75.svg,png/75.png
+76,Long-Interval Timer,Signal Processing,svg/76.svg,png/76.png
+77,Fast Zero-Crossing Detector with Logic-Level Output,Signal Processing,svg/77.svg,png/77.png
+78,Bootstrapped Follower for a Piezoelectric Sensor,Signal Processing,svg/78.svg,png/78.png
+79,Transistor Temperature Probe Amplifier,Signal Processing,svg/79.svg,png/79.png
+80,Photodiode Transimpedance Amplifier (Reverse-Biased),Signal Processing,svg/80.svg,png/80.png
+81,Photodiode Transimpedance Amplifier (Zero Bias),Signal Processing,svg/81.svg,png/81.png
+82,Bootstrapped AC Voltage Follower,Signal Processing,svg/82.svg,png/82.png
+83,Temperature-Compensated Logarithmic Amplifier,Signal Processing,svg/83.svg,png/83.png
+84,Square-Root Circuit Using Log and Antilog Stages,Signal Processing,svg/84.svg,png/84.png
+85,Log-Antilog Multiplier/Divider,Signal Processing,svg/85.svg,png/85.png
+86,Log-Antilog Cube Generator,Signal Processing,svg/86.svg,png/86.png
+87,Fast Logarithmic Amplifier,Signal Processing,svg/87.svg,png/87.png
+88,Temperature-Compensated Antilog (Exponential) Amplifier,Signal Processing,svg/88.svg,png/88.png
